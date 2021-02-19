@@ -6,70 +6,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Main</title>
+    <title>Main page</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="header-container">
-            <div class="main-menu">
-                <a href="./index.html">Главная</a>
-                <a href="./contacts.html">Контакты</a>
-            </div>
-            <div class="header-content">
-                <h1>New Automation Tool for You</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est expedita possimus reiciendis culpa
+    <div class="top">
+        <div class="container top__box">
+            <ul class="header">
+                <li>
+                    <a href="./index.html">
+                        <img src="./img/icons/logo.svg" alt="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="./contacts.html">
+                        <img src="./img/icons/Vector.svg" alt="contacts">
+                    </a>
+                </li>
+            </ul>
+            <div class="top__info">
+                <h1 class="top__heading">New Automation Tool for You</h1>
+                <p class="text top__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est expedita possimus
+                    reiciendis culpa
                     quidem dolores
                     obcaecati minus. Eum quo ipsam sapiente voluptatem, eos placeat ut perspiciatis blanditiis beatae.
                     Suscipit,
                     quaerat!</p>
+                <a href="#" class="top__button">See Our Project</a>
             </div>
         </div>
     </div>
-    <div class="about-us">
-        <h3 class="middle-title">What we do to help our client grow in digital era</h3>
-        <ul class="features">
-            <li class="features-item">
-                <h4 class="small-title">Make Your business To Be Better Famous In Internet</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque libero voluptas eaque hic
+
+    <div class="what-we-do container">
+        <h3 class="heading">What we do to help our client grow in digital era</h3>
+        <div class="card-box">
+            <div class="card">
+                <img class="card__image" src="img/card-1.svg" alt="card-1">
+                <h4 class="heading-mini">Make Your business To Be Better Famous In Internet</h4>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque libero voluptas
+                    eaque hic
                     consequatur? Ut velit voluptates nam!</p>
-                <a href="#">Learn more</a>
-            </li>
-            <li class="features-item">
-                <h4 class="small-title">Make Your business To Be Better Famous In Internet</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque libero voluptas eaque hic
+                <a class="card__link" href="#">Learn more</a>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="img/card-2.svg" alt="card-1">
+                <h4 class="heading-mini">Make Your business To Be Better Famous In Internet</h4>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque libero voluptas
+                    eaque hic
                     consequatur? Ut velit voluptates nam!</p>
-                <a href="#">Learn more</a>
-            </li>
-            <li class="features-item">
-                <h4 class="small-title">Make Your business To Be Better Famous In Internet</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque libero voluptas eaque hic
+                <a class="card__link" href="#">Learn more</a>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="img/card-3.svg" alt="card-1">
+                <h4 class="heading-mini">Make Your business To Be Better Famous In Internet</h4>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi itaque libero voluptas
+                    eaque hic
                     consequatur? Ut velit voluptates nam!</p>
-                <a href="#">Learn more</a>
-            </li>
-        </ul>
+                <a class="card__link" href="#">Learn more</a>
+            </div>
+        </div>
     </div>
-    <div class="our-project">
-        <h3 class="our-project__title">Our Finished Title</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus officia voluptatibus ipsa saepe,
-            repellendus quasi.</p>
+
+    <div class="project container">
+        <h3 class="heading">Our Finished Project</h3>
+        <p class="text text__project">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div class="project__item">
+            <img class="project__img" src="img/project-1.png" alt="photo 1">
+            <p class="project__text">Smart Home Installation</p>
+        </div>
+        <div class="project__parent">
+            <div class="project__item project__item_margin">
+                <img class="project__img" src="img/project-2.png" alt="photo 2">
+                <p class="project__text project__text_mini">Sparklite App</p>
+            </div>
+            <div class="project__item">
+                <img class="project__img" src="img/project-3.png" alt="photo 3">
+                <p class="project__text project__text_mini">Car-Rapetition App</p>
+            </div>
+        </div>
     </div>
+
     <div class="footer">
-        <div class="footer-top">
-            <div class="footer-top__text-content">
-                <h3 class="middle-title">Interested to Work with  our team?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eos?</p>
+            <div class="footer-top container">
+                <div class="footer-top__text-content">
+                    <h3 class="heading heading_color">Interested to Work with our team?</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <button class="talk-btn">Let’s Talk</button>
             </div>
-        </div>
-        <hr>
-        <div class="footer-bottom">
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>+62-812-7313-4321</li>
-                <li>hello.afrian@gmail.com</li>
-            </ul>
-            <p>&copy;All rights reserved.</p>
-        </div>
+            <hr>
+            <div class="footer-bottom container">
+                <ol class="footer-contacts">
+                    <li class="footer-contacts__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li class="footer-contacts__item">+62-812-7313-4321</li>
+                    <li class="footer-contacts__item">hello.afrian@gmail.com</li>
+                </ol>
+                <p class="copyright">2021 All rights reserved.</p>
+            </div>
     </div>
 </body>
 
